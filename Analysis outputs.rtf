@@ -1,0 +1,1115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22420\viewh14200\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 > cat("Number of common IDs: ", length(common_ids), "\\n")\
+Number of common IDs:  1458 \
+> cat("Number of unique IDs in phase_5: ", length(unique_ids_phase_5), "\\n")\
+Number of unique IDs in phase_5:  833 \
+> cat("Number of unique IDs in phase_6: ", length(unique_ids_phase_6), "\\n")\
+Number of unique IDs in phase_6:  372 \
+> ### Total IDs (shared IDs + unique IDs phase 5 + unique IDs phase 6)\
+> cat("Total unique IDs (combined): ", length(unique(c(phase_5$ID, phase_6$ID))), "\\n")\
+Total unique IDs (combined):  2663 \
+> print(NA_summary_table)\
+                               Variable Missing_Values Not_Missing_Values Total_Values\
+ID                                   ID              0               2663         2663\
+F5leeftijd_kind         F5leeftijd_kind            372               2291         2663\
+F5PQ62                           F5PQ62           2292                371         2663\
+F5PQ63_01                     F5PQ63_01            876               1787         2663\
+F5PQ63_02                     F5PQ63_02            877               1786         2663\
+F5PQ63_03                     F5PQ63_03            876               1787         2663\
+F5PQ63_04                     F5PQ63_04            876               1787         2663\
+F5PQ63_05                     F5PQ63_05            876               1787         2663\
+F5PQ63_06                     F5PQ63_06            876               1787         2663\
+F5PQ63_07                     F5PQ63_07            876               1787         2663\
+F5PQ63_08                     F5PQ63_08            876               1787         2663\
+F5PQ63_09                     F5PQ63_09            876               1787         2663\
+F5PQ63_10                     F5PQ63_10            876               1787         2663\
+F5PQ63_11                     F5PQ63_11            877               1786         2663\
+F5PQ63_11_2_text       F5PQ63_11_2_text            372               2291         2663\
+F5PQ64                           F5PQ64            876               1787         2663\
+F5PQ65                           F5PQ65            881               1782         2663\
+F5PQ66                           F5PQ66            556               2107         2663\
+F5PQ67                           F5PQ67            550               2113         2663\
+F5PQ69                           F5PQ69            550               2113         2663\
+F5PQ70                           F5PQ70           1393               1270         2663\
+F5PQ71                           F5PQ71           1399               1264         2663\
+F5PQ73A                         F5PQ73A            552               2111         2663\
+F5PQ73B                         F5PQ73B            585               2078         2663\
+F5PQ74                           F5PQ74            876               1787         2663\
+MSPSS_totaal_som_f5 MSPSS_totaal_som_f5            704               1959         2663\
+semotion_f5                 semotion_f5            438               2225         2663\
+sconduct_f5                 sconduct_f5            438               2225         2663\
+shyper_f5                     shyper_f5            439               2224         2663\
+sprosoc_f5                   sprosoc_f5            438               2225         2663\
+SMDS_som_f5                 SMDS_som_f5            876               1787         2663\
+IGDS_som_f5                 IGDS_som_f5            876               1787         2663\
+F6PQ75                           F6PQ75            936               1727         2663\
+F6PQ76                           F6PQ76            936               1727         2663\
+F6PQ77                           F6PQ77           1037               1626         2663\
+F6PQ78_01                     F6PQ78_01           1038               1625         2663\
+F6PQ78_02                     F6PQ78_02           1038               1625         2663\
+F6PQ78_03                     F6PQ78_03           1038               1625         2663\
+F6PQ78_04                     F6PQ78_04           1038               1625         2663\
+F6PQ78_05                     F6PQ78_05           1038               1625         2663\
+F6PQ78_06                     F6PQ78_06           1038               1625         2663\
+F6PQ78_07                     F6PQ78_07           1038               1625         2663\
+F6PQ78_08                     F6PQ78_08           1038               1625         2663\
+F6PQ78_09                     F6PQ78_09           1038               1625         2663\
+F6PQ78_10                     F6PQ78_10           1038               1625         2663\
+F6PQ78_10_text           F6PQ78_10_text            833               1830         2663\
+F6PQ79                           F6PQ79           1039               1624         2663\
+F6PQ90                           F6PQ90            936               1727         2663\
+F6PQ91_01                     F6PQ91_01           1676                987         2663\
+F6PQ91_02                     F6PQ91_02           1676                987         2663\
+F6PQ91_03                     F6PQ91_03           1676                987         2663\
+F6PQ91_04                     F6PQ91_04           1676                987         2663\
+F6PQ91_05                     F6PQ91_05           1676                987         2663\
+F6PQ91_06                     F6PQ91_06           1676                987         2663\
+F6PQ91_07                     F6PQ91_07           1676                987         2663\
+F6PQ91_08                     F6PQ91_08           1676                987         2663\
+F6PQ91_08_text           F6PQ91_08_text            833               1830         2663\
+F6PQ92                           F6PQ92           1676                987         2663\
+F6PQ93                           F6PQ93           1676                987         2663\
+F6PQ94                           F6PQ94           1680                983         2663\
+F6PQ127                         F6PQ127            936               1727         2663\
+semotion_f6                 semotion_f6            902               1761         2663\
+sconduct_f6                 sconduct_f6            902               1761         2663\
+shyper_f6                     shyper_f6            902               1761         2663\
+sprosoc_f6                   sprosoc_f6            902               1761         2663\
+MSPSS_totaal_som_f6 MSPSS_totaal_som_f6            875               1788         2663\
+SMDS_som_calc_f6       SMDS_som_calc_f6           1037               1626         2663\
+IGDS_som_calc_f6       IGDS_som_calc_f6           1676                987         2663\
+geslacht.y                   geslacht.y              0               2663         2663\
+                    Percentage_Missing\
+ID                             0.00000\
+F5leeftijd_kind               13.96921\
+F5PQ62                        86.06834\
+F5PQ63_01                     32.89523\
+F5PQ63_02                     32.93278\
+F5PQ63_03                     32.89523\
+F5PQ63_04                     32.89523\
+F5PQ63_05                     32.89523\
+F5PQ63_06                     32.89523\
+F5PQ63_07                     32.89523\
+F5PQ63_08                     32.89523\
+F5PQ63_09                     32.89523\
+F5PQ63_10                     32.89523\
+F5PQ63_11                     32.93278\
+F5PQ63_11_2_text              13.96921\
+F5PQ64                        32.89523\
+F5PQ65                        33.08299\
+F5PQ66                        20.87871\
+F5PQ67                        20.65340\
+F5PQ69                        20.65340\
+F5PQ70                        52.30943\
+F5PQ71                        52.53474\
+F5PQ73A                       20.72850\
+F5PQ73B                       21.96771\
+F5PQ74                        32.89523\
+MSPSS_totaal_som_f5           26.43635\
+semotion_f5                   16.44762\
+sconduct_f5                   16.44762\
+shyper_f5                     16.48517\
+sprosoc_f5                    16.44762\
+SMDS_som_f5                   32.89523\
+IGDS_som_f5                   32.89523\
+F6PQ75                        35.14833\
+F6PQ76                        35.14833\
+F6PQ77                        38.94104\
+F6PQ78_01                     38.97860\
+F6PQ78_02                     38.97860\
+F6PQ78_03                     38.97860\
+F6PQ78_04                     38.97860\
+F6PQ78_05                     38.97860\
+F6PQ78_06                     38.97860\
+F6PQ78_07                     38.97860\
+F6PQ78_08                     38.97860\
+F6PQ78_09                     38.97860\
+F6PQ78_10                     38.97860\
+F6PQ78_10_text                31.28051\
+F6PQ79                        39.01615\
+F6PQ90                        35.14833\
+F6PQ91_01                     62.93654\
+F6PQ91_02                     62.93654\
+F6PQ91_03                     62.93654\
+F6PQ91_04                     62.93654\
+F6PQ91_05                     62.93654\
+F6PQ91_06                     62.93654\
+F6PQ91_07                     62.93654\
+F6PQ91_08                     62.93654\
+F6PQ91_08_text                31.28051\
+F6PQ92                        62.93654\
+F6PQ93                        62.93654\
+F6PQ94                        63.08674\
+F6PQ127                       35.14833\
+semotion_f6                   33.87157\
+sconduct_f6                   33.87157\
+shyper_f6                     33.87157\
+sprosoc_f6                    33.87157\
+MSPSS_totaal_som_f6           32.85768\
+SMDS_som_calc_f6              38.94104\
+IGDS_som_calc_f6              62.93654\
+geslacht.y                     0.00000\
+> print(summary_table)\
+                               Variable Missing_Values Not_Missing_Values Total_Values\
+F5leeftijd_kind         F5leeftijd_kind            372               2291         2663\
+MSPSS_totaal_som_f5 MSPSS_totaal_som_f5            704               1959         2663\
+semotion_f5                 semotion_f5            438               2225         2663\
+sconduct_f5                 sconduct_f5            438               2225         2663\
+shyper_f5                     shyper_f5            439               2224         2663\
+sprosoc_f5                   sprosoc_f5            438               2225         2663\
+SMDS_som_f5                 SMDS_som_f5            876               1787         2663\
+IGDS_som_f5                 IGDS_som_f5            876               1787         2663\
+semotion_f6                 semotion_f6            902               1761         2663\
+sconduct_f6                 sconduct_f6            902               1761         2663\
+shyper_f6                     shyper_f6            902               1761         2663\
+sprosoc_f6                   sprosoc_f6            902               1761         2663\
+MSPSS_totaal_som_f6 MSPSS_totaal_som_f6            875               1788         2663\
+SMDS_som_calc_f6       SMDS_som_calc_f6           1037               1626         2663\
+IGDS_som_calc_f6       IGDS_som_calc_f6           1676                987         2663\
+geslacht.y                   geslacht.y              0               2663         2663\
+                    Percentage_Missing\
+F5leeftijd_kind               13.96921\
+MSPSS_totaal_som_f5           26.43635\
+semotion_f5                   16.44762\
+sconduct_f5                   16.44762\
+shyper_f5                     16.48517\
+sprosoc_f5                    16.44762\
+SMDS_som_f5                   32.89523\
+IGDS_som_f5                   32.89523\
+semotion_f6                   33.87157\
+sconduct_f6                   33.87157\
+shyper_f6                     33.87157\
+sprosoc_f6                    33.87157\
+MSPSS_totaal_som_f6           32.85768\
+SMDS_som_calc_f6              38.94104\
+IGDS_som_calc_f6              62.93654\
+geslacht.y                     0.00000\
+> # Post-hoc power analysis results\
+> summary(post_hoc_power)\
+\
+ semPower: Post hoc power analysis\
+                                  \
+ F0                       0.000020\
+ RMSEA                    0.004436\
+ Mc                       0.999990\
+                                  \
+ df                       1       \
+ Num Observations         645     \
+ NCP                      0.012672\
+                                  \
+ Critical Chi-Square      3.841459\
+ Alpha                    0.050000\
+ Beta                     0.948547\
+ Power (1 - Beta)         0.051453\
+ Implied Alpha/Beta Ratio 0.052712\
+> # A-priori power analysis results\
+> summary(apriori_power)\
+\
+ semPower: A priori power analysis\
+                                   \
+ F0                        0.032816\
+ RMSEA                     0.181151\
+ Mc                        0.983726\
+                                   \
+ df                        1       \
+ Required Num Observations 239     \
+                                   \
+ Critical Chi-Square       3.841459\
+ NCP                       7.810146\
+ Alpha                     0.050000\
+ Beta                      0.201942\
+ Power (1 - Beta)          0.798058\
+ Implied Alpha/Beta Ratio  0.247595\
+> # Print the power analysis results\
+> summary(a_priori_effect_size)\
+\
+ semPower: A priori power analysis\
+                                   \
+ F0                        0.003540\
+ RMSEA                     0.059499\
+ Mc                        0.998232\
+                                   \
+ df                        1       \
+ Required Num Observations 2227    \
+                                   \
+ Critical Chi-Square       3.841459\
+ NCP                       7.880307\
+ Alpha                     0.050000\
+ Beta                      0.198434\
+ Power (1 - Beta)          0.801566\
+ Implied Alpha/Beta Ratio  0.251973\
+> # Smallest detectable cross-lag effect size with power 80% and n = 645\
+> print(smallest_effect_size)\
+[1] 0.19\
+> #### Display results\
+> summary(fit, standardized = TRUE)\
+lavaan 0.6.17 ended normally after 54 iterations\
+\
+  Estimator                                         ML\
+  Optimization method                           NLMINB\
+  Number of model parameters                        64\
+\
+  Number of observations                           645\
+\
+Model Test User Model:\
+                                              Standard      Scaled\
+  Test Statistic                                39.753      37.012\
+  Degrees of freedom                                14          14\
+  P-value (Chi-square)                           0.000       0.001\
+  Scaling correction factor                                  1.074\
+    Yuan-Bentler correction (Mplus variant)                       \
+\
+Parameter Estimates:\
+\
+  Standard errors                             Sandwich\
+  Information bread                           Observed\
+  Observed information based on                Hessian\
+\
+Regressions:\
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  semotion_f6 ~                                                           \
+    semtn_f5  (b1)      0.717    0.030   23.674    0.000    0.717    0.666\
+  sconduct_f6 ~                                                           \
+    scndct_5  (b2)      0.488    0.038   12.711    0.000    0.488    0.501\
+  shyper_f6 ~                                                             \
+    shypr_f5  (b3)      0.668    0.027   24.429    0.000    0.668    0.679\
+  sprosoc_f6 ~                                                            \
+    sprsc_f5  (b4)      0.547    0.041   13.488    0.000    0.547    0.517\
+  SMDS_som_calc_f6 ~                                                      \
+    SMDS_s_5  (b5)      0.280    0.042    6.681    0.000    0.280    0.307\
+  IGDS_som_calc_f6 ~                                                      \
+    IGDS_s_5  (b6)      0.337    0.039    8.666    0.000    0.337    0.426\
+  semotion_f6 ~                                                           \
+    SMDS_s_5  (c1)      0.012    0.058    0.207    0.836    0.012    0.007\
+    IGDS_s_5  (c2)     -0.051    0.054   -0.948    0.343   -0.051   -0.029\
+  sconduct_f6 ~                                                           \
+    SMDS_s_5  (c3)      0.048    0.035    1.367    0.172    0.048    0.052\
+    IGDS_s_5  (c4)      0.035    0.034    1.037    0.300    0.035    0.039\
+  shyper_f6 ~                                                             \
+    SMDS_s_5  (c5)      0.044    0.053    0.819    0.413    0.044    0.025\
+    IGDS_s_5  (c6)     -0.050    0.051   -0.970    0.332   -0.050   -0.029\
+  sprosoc_f6 ~                                                            \
+    SMDS_s_5  (c7)     -0.071    0.041   -1.718    0.086   -0.071   -0.063\
+    IGDS_s_5  (c8)     -0.061    0.041   -1.480    0.139   -0.061   -0.055\
+  SMDS_som_calc_f6 ~                                                      \
+    semtn_f5  (c9)      0.093    0.022    4.183    0.000    0.093    0.172\
+    scndct_5 (c10)     -0.002    0.043   -0.035    0.972   -0.002   -0.002\
+    shypr_f5 (c11)      0.002    0.021    0.080    0.937    0.002    0.003\
+    sprsc_f5 (c12)     -0.028    0.029   -0.985    0.325   -0.028   -0.034\
+  IGDS_som_calc_f6 ~                                                      \
+    semtn_f5 (c13)      0.072    0.021    3.414    0.001    0.072    0.152\
+    scndct_5 (c14)      0.037    0.037    0.983    0.326    0.037    0.043\
+    shypr_f5 (c15)      0.000    0.022    0.021    0.983    0.000    0.001\
+    sprsc_f5 (c16)     -0.014    0.028   -0.485    0.628   -0.014   -0.018\
+\
+Covariances:\
+                      Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  SMDS_som_f5 ~~                                                           \
+    IGDS_som_f5          0.299    0.092    3.253    0.001    0.299    0.151\
+  semotion_f5 ~~                                                           \
+    SMDS_som_f5          1.147    0.144    7.954    0.000    1.147    0.349\
+  sconduct_f5 ~~                                                           \
+    SMDS_som_f5          0.336    0.078    4.313    0.000    0.336    0.184\
+  shyper_f5 ~~                                                             \
+    SMDS_som_f5          0.878    0.141    6.235    0.000    0.878    0.255\
+  sprosoc_f5 ~~                                                            \
+    SMDS_som_f5         -0.239    0.081   -2.968    0.003   -0.239   -0.114\
+  semotion_f5 ~~                                                           \
+    IGDS_som_f5          0.033    0.144    0.230    0.818    0.033    0.010\
+  sconduct_f5 ~~                                                           \
+    IGDS_som_f5          0.214    0.091    2.349    0.019    0.214    0.115\
+  shyper_f5 ~~                                                             \
+    IGDS_som_f5          0.411    0.136    3.028    0.002    0.411    0.118\
+  sprosoc_f5 ~~                                                            \
+    IGDS_som_f5         -0.398    0.084   -4.756    0.000   -0.398   -0.187\
+  semotion_f5 ~~                                                           \
+    sconduct_f5          0.739    0.147    5.022    0.000    0.739    0.240\
+    shyper_f5            1.919    0.243    7.911    0.000    1.919    0.331\
+    sprosoc_f5          -0.079    0.146   -0.539    0.590   -0.079   -0.022\
+  sconduct_f5 ~~                                                           \
+    shyper_f5            1.223    0.129    9.512    0.000    1.223    0.379\
+    sprosoc_f5          -0.445    0.085   -5.232    0.000   -0.445   -0.227\
+  shyper_f5 ~~                                                             \
+    sprosoc_f5          -0.683    0.151   -4.507    0.000   -0.683   -0.185\
+ .SMDS_som_calc_f6 ~~                                                      \
+   .IGDS_sm_clc_f6       0.235    0.071    3.337    0.001    0.235    0.205\
+ .semotion_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.543    0.090    6.005    0.000    0.543    0.248\
+ .sconduct_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.159    0.064    2.482    0.013    0.159    0.126\
+ .shyper_f6 ~~                                                             \
+   .SMDS_sm_clc_f6       0.357    0.092    3.895    0.000    0.357    0.173\
+ .sprosoc_f6 ~~                                                            \
+   .SMDS_sm_clc_f6      -0.080    0.068   -1.162    0.245   -0.080   -0.051\
+ .semotion_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.293    0.086    3.412    0.001    0.293    0.157\
+ .sconduct_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.047    0.049    0.958    0.338    0.047    0.043\
+ .shyper_f6 ~~                                                             \
+   .IGDS_sm_clc_f6       0.169    0.071    2.380    0.017    0.169    0.096\
+ .sprosoc_f6 ~~                                                            \
+   .IGDS_sm_clc_f6      -0.143    0.066   -2.158    0.031   -0.143   -0.108\
+ .semotion_f6 ~~                                                           \
+   .sconduct_f6          0.291    0.082    3.538    0.000    0.291    0.142\
+   .shyper_f6            0.797    0.143    5.572    0.000    0.797    0.239\
+   .sprosoc_f6          -0.078    0.097   -0.806    0.420   -0.078   -0.031\
+ .sconduct_f6 ~~                                                           \
+   .shyper_f6            0.320    0.092    3.464    0.001    0.320    0.166\
+   .sprosoc_f6          -0.131    0.064   -2.050    0.040   -0.131   -0.090\
+ .shyper_f6 ~~                                                             \
+   .sprosoc_f6          -0.065    0.097   -0.672    0.502   -0.065   -0.027\
+\
+Variances:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       3.547    0.213   16.615    0.000    3.547    0.553\
+   .sconduct_f6       1.185    0.087   13.677    0.000    1.185    0.730\
+   .shyper_f6         3.147    0.201   15.645    0.000    3.147    0.534\
+   .sprosoc_f6        1.780    0.107   16.684    0.000    1.780    0.707\
+   .SMDS_sm_clc_f6    1.350    0.129   10.435    0.000    1.350    0.835\
+   .IGDS_sm_clc_f6    0.978    0.105    9.331    0.000    0.978    0.781\
+    semotion_f5       5.536    0.337   16.443    0.000    5.536    1.000\
+    sconduct_f5       1.712    0.131   13.068    0.000    1.712    1.000\
+    shyper_f5         6.089    0.277   22.002    0.000    6.089    1.000\
+    sprosoc_f5        2.246    0.126   17.861    0.000    2.246    1.000\
+    SMDS_som_f5       1.953    0.166   11.747    0.000    1.953    1.000\
+    IGDS_som_f5       2.004    0.171   11.717    0.000    2.004    1.000\
+\
+> fit_stats\
+      aic       bic       cfi     rmsea \
+27782.760 28068.792     0.987     0.053 \
+> fit_indices\
+                         npar                          fmin                         chisq \
+                       64.000                         0.031                        39.753 \
+                           df                        pvalue                  chisq.scaled \
+                       14.000                         0.000                        37.012 \
+                    df.scaled                 pvalue.scaled          chisq.scaling.factor \
+                       14.000                         0.001                         1.074 \
+               baseline.chisq                   baseline.df               baseline.pvalue \
+                     2109.208                        66.000                         0.000 \
+        baseline.chisq.scaled            baseline.df.scaled        baseline.pvalue.scaled \
+                     1783.200                        66.000                         0.000 \
+baseline.chisq.scaling.factor                           cfi                           tli \
+                        1.183                         0.987                         0.941 \
+                   cfi.scaled                    tli.scaled                    cfi.robust \
+                        0.987                         0.937                         0.988 \
+                   tli.robust                          nnfi                           rfi \
+                        0.943                         0.941                         0.911 \
+                          nfi                          pnfi                           ifi \
+                        0.981                         0.208                         0.988 \
+                          rni                   nnfi.scaled                    rfi.scaled \
+                        0.987                         0.937                         0.902 \
+                   nfi.scaled                   pnfi.scaled                    ifi.scaled \
+                        0.979                         0.208                         0.987 \
+                   rni.scaled                   nnfi.robust                    rni.robust \
+                        0.987                         0.943                         0.988 \
+                         logl             unrestricted.logl                           aic \
+                   -13827.380                    -13807.503                     27782.760 \
+                          bic                        ntotal                          bic2 \
+                    28068.792                       645.000                     27865.595 \
+            scaling.factor.h1             scaling.factor.h0                         rmsea \
+                        1.264                         1.305                         0.053 \
+               rmsea.ci.lower                rmsea.ci.upper                rmsea.ci.level \
+                        0.034                         0.073                         0.900 \
+                 rmsea.pvalue                rmsea.close.h0         rmsea.notclose.pvalue \
+                        0.356                         0.050                         0.013 \
+            rmsea.notclose.h0                  rmsea.scaled         rmsea.ci.lower.scaled \
+                        0.080                         0.050                         0.032 \
+        rmsea.ci.upper.scaled           rmsea.pvalue.scaled  rmsea.notclose.pvalue.scaled \
+                        0.070                         0.451                         0.005 \
+                 rmsea.robust         rmsea.ci.lower.robust         rmsea.ci.upper.robust \
+                        0.052                         0.032                         0.073 \
+          rmsea.pvalue.robust  rmsea.notclose.pvalue.robust                           rmr \
+                        0.393                         0.013                         0.098 \
+                   rmr_nomean                          srmr                  srmr_bentler \
+                        0.098                         0.026                         0.026 \
+          srmr_bentler_nomean                          crmr                   crmr_nomean \
+                        0.026                         0.028                         0.028 \
+                   srmr_mplus             srmr_mplus_nomean                         cn_05 \
+                        0.026                         0.026                       385.290 \
+                        cn_01                           gfi                          agfi \
+                      473.822                         0.990                         0.944 \
+                         pgfi                           mfi                          ecvi \
+                        0.178                         0.980                         0.260 \
+> # Display results\
+> summary(fit_multigroup, standardized = TRUE)\
+lavaan 0.6.17 ended normally after 115 iterations\
+\
+  Estimator                                         ML\
+  Optimization method                           NLMINB\
+  Number of model parameters                       152\
+  Number of equality constraints                     6\
+\
+  Number of observations per group:                   \
+    female                                         234\
+    male                                           411\
+\
+Model Test User Model:\
+                                                      \
+  Test statistic                                61.346\
+  Degrees of freedom                                34\
+  P-value (Chi-square)                           0.003\
+  Test statistic for each group:\
+    female                                      30.004\
+    male                                        31.343\
+\
+Parameter Estimates:\
+\
+  Standard errors                             Standard\
+  Information                                 Expected\
+  Information saturated (h1) model          Structured\
+\
+\
+Group 1 [female]:\
+\
+Regressions:\
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  semotion_f6 ~                                                           \
+    smtn_f5   (b1)      0.607    0.034   17.999    0.000    0.607    0.615\
+  sconduct_f6 ~                                                           \
+    scndc_5   (b2)      0.488    0.033   14.977    0.000    0.488    0.518\
+  shyper_f6 ~                                                             \
+    shypr_5   (b3)      0.664    0.028   23.564    0.000    0.664    0.679\
+  sprosoc_f6 ~                                                            \
+    sprsc_5   (b4)      0.534    0.036   14.732    0.000    0.534    0.506\
+  SMDS_som_calc_f6 ~                                                      \
+    SMDS__5   (b5)      0.225    0.034    6.667    0.000    0.225    0.241\
+  IGDS_som_calc_f6 ~                                                      \
+    IGDS__5   (b6)      0.337    0.030   11.226    0.000    0.337    0.268\
+  semotion_f6 ~                                                           \
+    SMDS__5  (cm1)     -0.096    0.085   -1.120    0.263   -0.096   -0.060\
+    IGDS__5  (cm2)      0.103    0.161    0.639    0.523    0.103    0.033\
+  sconduct_f6 ~                                                           \
+    SMDS__5  (cm3)      0.081    0.046    1.783    0.075    0.081    0.097\
+    IGDS__5  (cm4)      0.157    0.086    1.824    0.068    0.157    0.097\
+  shyper_f6 ~                                                             \
+    SMDS__5  (cm5)      0.139    0.078    1.772    0.076    0.139    0.085\
+    IGDS__5  (cm6)     -0.191    0.149   -1.284    0.199   -0.191   -0.061\
+  sprosoc_f6 ~                                                            \
+    SMDS__5  (cm7)     -0.084    0.056   -1.520    0.128   -0.084   -0.083\
+    IGDS__5  (cm8)     -0.206    0.108   -1.903    0.057   -0.206   -0.105\
+  SMDS_som_calc_f6 ~                                                      \
+    smtn_f5  (cm9)      0.083    0.037    2.241    0.025    0.083    0.145\
+    scndc_5 (cm10)      0.110    0.073    1.512    0.131    0.110    0.105\
+    shypr_5 (cm11)     -0.044    0.037   -1.174    0.241   -0.044   -0.079\
+    sprsc_5 (cm12)     -0.057    0.059   -0.974    0.330   -0.057   -0.059\
+  IGDS_som_calc_f6 ~                                                      \
+    smtn_f5 (cm13)      0.086    0.026    3.378    0.001    0.086    0.215\
+    scndc_5 (cm14)      0.044    0.050    0.872    0.383    0.044    0.060\
+    shypr_5 (cm15)     -0.002    0.026   -0.087    0.930   -0.002   -0.006\
+    sprsc_5 (cm16)     -0.061    0.041   -1.468    0.142   -0.061   -0.089\
+\
+Covariances:\
+                      Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  SMDS_som_f5 ~~                                                           \
+    IGDS_som_f5          0.246    0.081    3.047    0.002    0.246    0.203\
+  semotion_f5 ~~                                                           \
+    SMDS_som_f5          1.195    0.260    4.592    0.000    1.195    0.315\
+  sconduct_f5 ~~                                                           \
+    SMDS_som_f5          0.620    0.142    4.368    0.000    0.620    0.298\
+  shyper_f5 ~~                                                             \
+    SMDS_som_f5          1.170    0.267    4.390    0.000    1.170    0.300\
+  sprosoc_f5 ~~                                                            \
+    SMDS_som_f5         -0.292    0.148   -1.965    0.049   -0.292   -0.130\
+  semotion_f5 ~~                                                           \
+    IGDS_som_f5          0.291    0.130    2.239    0.025    0.291    0.148\
+  sconduct_f5 ~~                                                           \
+    IGDS_som_f5          0.202    0.072    2.808    0.005    0.202    0.187\
+  shyper_f5 ~~                                                             \
+    IGDS_som_f5          0.431    0.135    3.186    0.001    0.431    0.213\
+  sprosoc_f5 ~~                                                            \
+    IGDS_som_f5         -0.280    0.078   -3.567    0.000   -0.280   -0.240\
+  semotion_f5 ~~                                                           \
+    sconduct_f5          1.241    0.236    5.268    0.000    1.241    0.367\
+    shyper_f5            2.028    0.436    4.654    0.000    2.028    0.319\
+    sprosoc_f5          -0.356    0.240   -1.482    0.138   -0.356   -0.097\
+  sconduct_f5 ~~                                                           \
+    shyper_f5            1.576    0.250    6.311    0.000    1.576    0.453\
+    sprosoc_f5          -0.529    0.136   -3.901    0.000   -0.529   -0.264\
+  shyper_f5 ~~                                                             \
+    sprosoc_f5          -0.747    0.251   -2.977    0.003   -0.747   -0.198\
+ .SMDS_som_calc_f6 ~~                                                      \
+   .IGDS_sm_clc_f6       0.317    0.081    3.899    0.000    0.317    0.264\
+ .semotion_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.576    0.174    3.313    0.001    0.576    0.222\
+ .sconduct_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.292    0.093    3.156    0.002    0.292    0.211\
+ .shyper_f6 ~~                                                             \
+   .SMDS_sm_clc_f6       0.448    0.158    2.830    0.005    0.448    0.188\
+ .sprosoc_f6 ~~                                                            \
+   .SMDS_sm_clc_f6      -0.145    0.112   -1.290    0.197   -0.145   -0.085\
+ .semotion_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.197    0.116    1.693    0.090    0.197    0.111\
+ .sconduct_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.044    0.062    0.712    0.476    0.044    0.047\
+ .shyper_f6 ~~                                                             \
+   .IGDS_sm_clc_f6       0.035    0.106    0.327    0.744    0.035    0.021\
+ .sprosoc_f6 ~~                                                            \
+   .IGDS_sm_clc_f6      -0.208    0.077   -2.683    0.007   -0.208   -0.178\
+ .semotion_f6 ~~                                                           \
+   .sconduct_f6          0.426    0.136    3.126    0.002    0.426    0.209\
+   .shyper_f6            1.080    0.240    4.508    0.000    1.080    0.308\
+   .sprosoc_f6          -0.183    0.165   -1.110    0.267   -0.183   -0.073\
+ .sconduct_f6 ~~                                                           \
+   .shyper_f6            0.466    0.126    3.702    0.000    0.466    0.249\
+   .sprosoc_f6          -0.132    0.088   -1.492    0.136   -0.132   -0.098\
+ .shyper_f6 ~~                                                             \
+   .sprosoc_f6          -0.237    0.152   -1.566    0.117   -0.237   -0.103\
+\
+Intercepts:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       2.708    0.220   12.304    0.000    2.708    1.103\
+   .sconduct_f6       0.672    0.106    6.333    0.000    0.672    0.524\
+   .shyper_f6         1.741    0.201    8.640    0.000    1.741    0.697\
+   .sprosoc_f6        4.026    0.338   11.897    0.000    4.026    2.589\
+   .SMDS_sm_clc_f6    1.553    0.561    2.766    0.006    1.553    1.091\
+   .IGDS_sm_clc_f6    0.614    0.393    1.563    0.118    0.614    0.616\
+    semotion_f5       4.158    0.162   25.595    0.000    4.158    1.673\
+    sconduct_f5       1.393    0.089   15.652    0.000    1.393    1.023\
+    shyper_f5         4.470    0.167   26.756    0.000    4.470    1.749\
+    sprosoc_f5        8.389    0.096   87.127    0.000    8.389    5.696\
+    SMDS_som_f5       1.684    0.100   16.852    0.000    1.684    1.102\
+    IGDS_som_f5       0.346    0.052    6.682    0.000    0.346    0.437\
+\
+Variances:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       3.826    0.354   10.817    0.000    3.826    0.635\
+   .sconduct_f6       1.088    0.101   10.817    0.000    1.088    0.661\
+   .shyper_f6         3.205    0.296   10.817    0.000    3.205    0.513\
+   .sprosoc_f6        1.659    0.153   10.817    0.000    1.659    0.686\
+   .SMDS_sm_clc_f6    1.764    0.163   10.817    0.000    1.764    0.871\
+   .IGDS_sm_clc_f6    0.818    0.076   10.817    0.000    0.818    0.822\
+    semotion_f5       6.176    0.571   10.817    0.000    6.176    1.000\
+    sconduct_f5       1.854    0.171   10.817    0.000    1.854    1.000\
+    shyper_f5         6.531    0.604   10.817    0.000    6.531    1.000\
+    sprosoc_f5        2.169    0.201   10.817    0.000    2.169    1.000\
+    SMDS_som_f5       2.336    0.216   10.817    0.000    2.336    1.000\
+    IGDS_som_f5       0.628    0.058   10.817    0.000    0.628    1.000\
+\
+\
+Group 2 [male]:\
+\
+Regressions:\
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  semotion_f6 ~                                                           \
+    smtn_f5   (b1)      0.607    0.034   17.999    0.000    0.607    0.559\
+  sconduct_f6 ~                                                           \
+    scndc_5   (b2)      0.488    0.033   14.977    0.000    0.488    0.492\
+  shyper_f6 ~                                                             \
+    shypr_5   (b3)      0.664    0.028   23.564    0.000    0.664    0.678\
+  sprosoc_f6 ~                                                            \
+    sprsc_5   (b4)      0.534    0.036   14.732    0.000    0.534    0.498\
+  SMDS_som_calc_f6 ~                                                      \
+    SMDS__5   (b5)      0.225    0.034    6.667    0.000    0.225    0.266\
+  IGDS_som_calc_f6 ~                                                      \
+    IGDS__5   (b6)      0.337    0.030   11.226    0.000    0.337    0.452\
+  semotion_f6 ~                                                           \
+    SMDS__5  (cf1)     -0.079    0.069   -1.145    0.252   -0.079   -0.048\
+    IGDS__5  (cf2)      0.113    0.054    2.074    0.038    0.113    0.087\
+  sconduct_f6 ~                                                           \
+    SMDS__5  (cf3)     -0.036    0.046   -0.774    0.439   -0.036   -0.035\
+    IGDS__5  (cf4)      0.050    0.036    1.378    0.168    0.050    0.062\
+  shyper_f6 ~                                                             \
+    SMDS__5  (cf5)     -0.097    0.073   -1.337    0.181   -0.097   -0.051\
+    IGDS__5  (cf6)      0.020    0.057    0.357    0.721    0.020    0.014\
+  sprosoc_f6 ~                                                            \
+    SMDS__5  (cf7)     -0.077    0.057   -1.347    0.178   -0.077   -0.060\
+    IGDS__5  (cf8)     -0.019    0.044   -0.420    0.675   -0.019   -0.019\
+  SMDS_som_calc_f6 ~                                                      \
+    smtn_f5  (cf9)      0.006    0.028    0.202    0.840    0.006    0.010\
+    scndc_5 (cf10)     -0.053    0.040   -1.311    0.190   -0.053   -0.065\
+    shypr_5 (cf11)      0.044    0.022    1.979    0.048    0.044    0.102\
+    sprsc_5 (cf12)     -0.053    0.034   -1.561    0.119   -0.053   -0.074\
+  IGDS_som_calc_f6 ~                                                      \
+    smtn_f5 (cf13)      0.056    0.029    1.942    0.052    0.056    0.089\
+    scndc_5 (cf14)      0.018    0.042    0.439    0.661    0.018    0.020\
+    shypr_5 (cf15)      0.003    0.023    0.148    0.882    0.003    0.007\
+    sprsc_5 (cf16)      0.018    0.035    0.512    0.608    0.018    0.022\
+\
+Covariances:\
+                      Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  SMDS_som_f5 ~~                                                           \
+    IGDS_som_f5          0.583    0.100    5.816    0.000    0.583    0.299\
+  semotion_f5 ~~                                                           \
+    SMDS_som_f5          0.543    0.118    4.602    0.000    0.543    0.233\
+  sconduct_f5 ~~                                                           \
+    SMDS_som_f5          0.203    0.078    2.585    0.010    0.203    0.129\
+  shyper_f5 ~~                                                             \
+    SMDS_som_f5          0.597    0.150    3.990    0.000    0.597    0.201\
+  sprosoc_f5 ~~                                                            \
+    SMDS_som_f5         -0.371    0.092   -4.051    0.000   -0.371   -0.204\
+  semotion_f5 ~~                                                           \
+    IGDS_som_f5          0.603    0.149    4.049    0.000    0.603    0.204\
+  sconduct_f5 ~~                                                           \
+    IGDS_som_f5          0.186    0.099    1.871    0.061    0.186    0.093\
+  shyper_f5 ~~                                                             \
+    IGDS_som_f5          0.542    0.188    2.879    0.004    0.542    0.143\
+  sprosoc_f5 ~~                                                            \
+    IGDS_som_f5         -0.264    0.115   -2.304    0.021   -0.264   -0.114\
+  semotion_f5 ~~                                                           \
+    sconduct_f5          0.532    0.121    4.386    0.000    0.532    0.222\
+    shyper_f5            1.531    0.235    6.505    0.000    1.531    0.339\
+    sprosoc_f5          -0.377    0.138   -2.737    0.006   -0.377   -0.136\
+  sconduct_f5 ~~                                                           \
+    shyper_f5            1.038    0.160    6.503    0.000    1.038    0.339\
+    sprosoc_f5          -0.375    0.094   -3.979    0.000   -0.375   -0.200\
+  shyper_f5 ~~                                                             \
+    sprosoc_f5          -0.738    0.178   -4.143    0.000   -0.738   -0.209\
+ .SMDS_som_calc_f6 ~~                                                      \
+   .IGDS_sm_clc_f6       0.172    0.051    3.382    0.001    0.172    0.169\
+ .semotion_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.268    0.083    3.239    0.001    0.268    0.162\
+ .sconduct_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.013    0.054    0.244    0.808    0.013    0.012\
+ .shyper_f6 ~~                                                             \
+   .SMDS_sm_clc_f6       0.259    0.086    3.012    0.003    0.259    0.150\
+ .sprosoc_f6 ~~                                                            \
+   .SMDS_sm_clc_f6      -0.050    0.066   -0.759    0.448   -0.050   -0.037\
+ .semotion_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.331    0.087    3.826    0.000    0.331    0.192\
+ .sconduct_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.022    0.056    0.401    0.688    0.022    0.020\
+ .shyper_f6 ~~                                                             \
+   .IGDS_sm_clc_f6       0.234    0.089    2.626    0.009    0.234    0.131\
+ .sprosoc_f6 ~~                                                            \
+   .IGDS_sm_clc_f6      -0.090    0.069   -1.309    0.191   -0.090   -0.065\
+ .semotion_f6 ~~                                                           \
+   .sconduct_f6          0.141    0.091    1.554    0.120    0.141    0.077\
+   .shyper_f6            0.538    0.146    3.680    0.000    0.538    0.185\
+   .sprosoc_f6          -0.086    0.112   -0.770    0.441   -0.086   -0.038\
+ .sconduct_f6 ~~                                                           \
+   .shyper_f6            0.203    0.095    2.135    0.033    0.203    0.106\
+   .sprosoc_f6          -0.123    0.074   -1.676    0.094   -0.123   -0.083\
+ .shyper_f6 ~~                                                             \
+   .sprosoc_f6           0.020    0.116    0.168    0.866    0.020    0.008\
+\
+Intercepts:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       1.136    0.126    9.024    0.000    1.136    0.556\
+   .sconduct_f6       0.666    0.087    7.639    0.000    0.666    0.526\
+   .shyper_f6         1.610    0.156   10.324    0.000    1.610    0.684\
+   .sprosoc_f6        3.804    0.307   12.382    0.000    3.804    2.410\
+   .SMDS_sm_clc_f6    0.960    0.307    3.129    0.002    0.960    0.918\
+   .IGDS_sm_clc_f6    0.039    0.316    0.124    0.902    0.039    0.033\
+    semotion_f5       2.036    0.093   21.947    0.000    2.036    1.083\
+    sconduct_f5       1.496    0.063   23.782    0.000    1.496    1.173\
+    shyper_f5         4.046    0.119   34.145    0.000    4.046    1.684\
+    sprosoc_f5        7.796    0.073  107.469    0.000    7.796    5.301\
+    SMDS_som_f5       0.934    0.061   15.308    0.000    0.934    0.755\
+    IGDS_som_f5       1.277    0.078   16.468    0.000    1.277    0.812\
+\
+Variances:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       2.803    0.196   14.335    0.000    2.803    0.672\
+   .sconduct_f6       1.207    0.084   14.335    0.000    1.207    0.753\
+   .shyper_f6         3.035    0.212   14.335    0.000    3.035    0.549\
+   .sprosoc_f6        1.827    0.127   14.335    0.000    1.827    0.733\
+   .SMDS_sm_clc_f6    0.980    0.068   14.335    0.000    0.980    0.896\
+   .IGDS_sm_clc_f6    1.059    0.074   14.335    0.000    1.059    0.770\
+    semotion_f5       3.539    0.247   14.335    0.000    3.539    1.000\
+    sconduct_f5       1.627    0.114   14.335    0.000    1.627    1.000\
+    shyper_f5         5.772    0.403   14.335    0.000    5.772    1.000\
+    sprosoc_f5        2.163    0.151   14.335    0.000    2.163    1.000\
+    SMDS_som_f5       1.531    0.107   14.335    0.000    1.531    1.000\
+    IGDS_som_f5       2.473    0.173   14.335    0.000    2.473    1.000\
+\
+> fit_indices_multigroup\
+                 npar                  fmin                 chisq                    df \
+              146.000                 0.048                61.346                34.000 \
+               pvalue        baseline.chisq           baseline.df       baseline.pvalue \
+                0.003              2002.032               132.000                 0.000 \
+                  cfi                   tli                  nnfi                   rfi \
+                0.985                 0.943                 0.943                 0.881 \
+                  nfi                  pnfi                   ifi                   rni \
+                0.969                 0.250                 0.986                 0.985 \
+                 logl     unrestricted.logl                   aic                   bic \
+           -13505.466            -13474.793             27302.932             27955.443 \
+               ntotal                  bic2                 rmsea        rmsea.ci.lower \
+              645.000             27491.899                 0.050                 0.029 \
+       rmsea.ci.upper        rmsea.ci.level          rmsea.pvalue        rmsea.close.h0 \
+                0.070                 0.900                 0.476                 0.050 \
+rmsea.notclose.pvalue     rmsea.notclose.h0                   rmr            rmr_nomean \
+                0.005                 0.080                 0.092                 0.099 \
+                 srmr          srmr_bentler   srmr_bentler_nomean                  crmr \
+                0.033                 0.033                 0.035                 0.032 \
+          crmr_nomean            srmr_mplus     srmr_mplus_nomean                 cn_05 \
+                0.035                 0.033                 0.034               512.009 \
+                cn_01                   gfi                  agfi                  pgfi \
+              590.428                 0.998                 0.992                 0.189 \
+                  mfi                  ecvi \
+                0.979                 0.548 \
+> # Display the MI parameter results\
+> print(pooled_results)\
+   Parameter Estimate_Unstd   SE_Unstd CI_Lower_Unstd CI_Upper_Unstd Estimate_Std     SE_Std\
+1         b1    0.649945524 0.02462630   6.016780e-01    0.698213079  0.592989682 0.02034720\
+2         b2    0.407404075 0.02179672   3.646825e-01    0.450125650  0.409177145 0.02067061\
+3         b3    0.580776078 0.02329820   5.351116e-01    0.626440545  0.585211794 0.02156702\
+4         b4    0.472694702 0.02572393   4.222758e-01    0.523113601  0.467745147 0.02329340\
+5         b5    0.269393601 0.02287540   2.245578e-01    0.314229376  0.293753226 0.02387658\
+6         b6    0.261913158 0.02523232   2.124578e-01    0.311368502  0.306426646 0.03133475\
+7         c1    0.145161707 0.03656502   7.349427e-02    0.216829139  0.079871374 0.02006600\
+8         c2   -0.096911801 0.03973302  -1.747885e-01   -0.019035086 -0.045844261 0.01880504\
+9         c3    0.072363954 0.02166562   2.989933e-02    0.114828579  0.080105054 0.02405228\
+10        c4    0.038936594 0.02543223  -1.091057e-02    0.088783763  0.036973058 0.02403667\
+11        c5    0.087363973 0.03602163   1.676157e-02    0.157966371  0.051039855 0.02100491\
+12        c6   -0.014011627 0.03820366  -8.889080e-02    0.060867544 -0.007002104 0.01914552\
+13        c7   -0.041860857 0.02216068  -8.529580e-02    0.001574083 -0.039099860 0.02070558\
+14        c8   -0.105887970 0.02896526  -1.626599e-01   -0.049116058 -0.085033910 0.02328280\
+15        c9    0.092667686 0.01287105   6.744042e-02    0.117894947  0.167596528 0.02334560\
+16       c10    0.008195516 0.02570711  -4.219042e-02    0.058581451  0.008103422 0.02540624\
+17       c11    0.005972489 0.01323286  -1.996392e-02    0.031908898  0.011255883 0.02491678\
+18       c12   -0.010896291 0.02285721  -5.569643e-02    0.033903848 -0.012574139 0.02639144\
+19       c13    0.053816481 0.01180888   3.067107e-02    0.076961891  0.121308072 0.02617927\
+20       c14    0.045746688 0.02332949   2.089611e-05    0.091472479  0.056472304 0.02871727\
+21       c15    0.006390678 0.01186157  -1.685800e-02    0.029639359  0.014938650 0.02778309\
+22       c16   -0.023731024 0.01942955  -6.181294e-02    0.014350887 -0.034127040 0.02787999\
+    CI_Lower_Std CI_Upper_Std    Z_score      P_value\
+1   0.5531091668  0.632870196 26.3923301 0.000000e+00\
+2   0.3686627397  0.449691550 18.6910708 0.000000e+00\
+3   0.5429404316  0.627483157 24.9279404 0.000000e+00\
+4   0.4220900749  0.513400219 18.3756810 0.000000e+00\
+5   0.2469551298  0.340551323 11.7765658 0.000000e+00\
+6   0.2450105438  0.367842748 10.3800671 0.000000e+00\
+7   0.0405420096  0.119200739  3.9699615 7.188425e-05\
+8  -0.0827021319 -0.008986390 -2.4390748 1.472492e-02\
+9   0.0329625874  0.127247520  3.3400354 8.376770e-04\
+10 -0.0101388068  0.084084922  1.5309942 1.257708e-01\
+11  0.0098702407  0.092209470  2.4253197 1.529491e-02\
+12 -0.0445273319  0.030523124 -0.3667614 7.137970e-01\
+13 -0.0796827922  0.001483072 -1.8889696 5.889591e-02\
+14 -0.1306681897 -0.039399630 -3.6556884 2.564927e-04\
+15  0.1218391496  0.213353907  7.1996981 6.035172e-13\
+16 -0.0416928048  0.057899649  0.3188035 7.498755e-01\
+17 -0.0375810158  0.060092781  0.4513377 6.517462e-01\
+18 -0.0643013662  0.039153088 -0.4767113 6.335677e-01\
+19  0.0699966950  0.172619449  4.5572884 5.181826e-06\
+20  0.0001864627  0.112758146  1.9608957 4.989119e-02\
+21 -0.0395162100  0.069393510  0.5387716 5.900445e-01\
+22 -0.0887718185  0.020517738 -1.2213885 2.219390e-01\
+> print(descriptives_by_group)\
+# A tibble: 2 \'d7 9\
+  MSPSS_tertile_group     n MSPSS_mean Emotional_T1 Emotional_T2 SMDS_T1 SMDS_T2\
+  <chr>               <int>      <dbl>        <dbl>        <dbl>   <dbl>   <dbl>\
+1 high                  430       78.2         2.5          3.32    1.11    1.09\
+2 low                   215       63.2         3.42         3.59    1.4     1.39\
+# \uc0\u8505  2 more variables: IGDS_T1 <dbl>, IGDS_T2 <dbl>\
+> summary(fit_mspss_multigroup, standardized = TRUE)\
+lavaan 0.6-19 ended normally after 121 iterations\
+\
+  Estimator                                         ML\
+  Optimization method                           NLMINB\
+  Number of model parameters                       152\
+  Number of equality constraints                     6\
+\
+  Number of observations per group:                   \
+    low                                            215\
+    high                                           430\
+\
+Model Test User Model:\
+                                                      \
+  Test statistic                                53.077\
+  Degrees of freedom                                34\
+  P-value (Chi-square)                           0.020\
+  Test statistic for each group:\
+    low                                         12.692\
+    high                                        40.385\
+\
+Parameter Estimates:\
+\
+  Standard errors                             Standard\
+  Information                                 Expected\
+  Information saturated (h1) model          Structured\
+\
+\
+Group 1 [low]:\
+\
+Regressions:\
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  semotion_f6 ~                                                           \
+    smtn_f5   (b1)      0.733    0.032   22.720    0.000    0.733    0.750\
+  sconduct_f6 ~                                                           \
+    scndc_5   (b2)      0.490    0.034   14.626    0.000    0.490    0.519\
+  shyper_f6 ~                                                             \
+    shypr_5   (b3)      0.672    0.028   23.685    0.000    0.672    0.659\
+  sprosoc_f6 ~                                                            \
+    sprsc_5   (b4)      0.523    0.036   14.471    0.000    0.523    0.466\
+  SMDS_som_calc_f6 ~                                                      \
+    SMDS__5   (b5)      0.268    0.035    7.727    0.000    0.268    0.279\
+  IGDS_som_calc_f6 ~                                                      \
+    IGDS__5   (b6)      0.334    0.027   12.519    0.000    0.334    0.371\
+  semotion_f6 ~                                                           \
+    SMDS__5  (cl1)     -0.043    0.086   -0.494    0.622   -0.043   -0.023\
+    IGDS__5  (cl2)     -0.068    0.080   -0.847    0.397   -0.068   -0.038\
+  sconduct_f6 ~                                                           \
+    SMDS__5  (cl3)      0.044    0.060    0.734    0.463    0.044    0.043\
+    IGDS__5  (cl4)     -0.008    0.057   -0.142    0.887   -0.008   -0.008\
+  shyper_f6 ~                                                             \
+    SMDS__5  (cl5)      0.069    0.091    0.761    0.446    0.069    0.038\
+    IGDS__5  (cl6)     -0.151    0.085   -1.764    0.078   -0.151   -0.087\
+  sprosoc_f6 ~                                                            \
+    SMDS__5  (cl7)     -0.090    0.072   -1.255    0.209   -0.090   -0.074\
+    IGDS__5  (cl8)     -0.076    0.069   -1.093    0.274   -0.076   -0.065\
+  SMDS_som_calc_f6 ~                                                      \
+    smtn_f5  (cl9)      0.070    0.032    2.165    0.030    0.070    0.140\
+    scndc_5 (cl10)      0.044    0.057    0.772    0.440    0.044    0.050\
+    shypr_5 (cl11)     -0.004    0.035   -0.127    0.899   -0.004   -0.008\
+    sprsc_5 (cl12)      0.012    0.053    0.217    0.828    0.012    0.013\
+  IGDS_som_calc_f6 ~                                                      \
+    smtn_f5 (cl13)      0.110    0.031    3.541    0.000    0.110    0.223\
+    scndc_5 (cl14)      0.071    0.055    1.288    0.198    0.071    0.083\
+    shypr_5 (cl15)     -0.007    0.034   -0.199    0.842   -0.007   -0.013\
+    sprsc_5 (cl16)     -0.022    0.052   -0.420    0.674   -0.022   -0.025\
+\
+Covariances:\
+                      Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  SMDS_som_f5 ~~                                                           \
+    IGDS_som_f5          0.123    0.135    0.911    0.362    0.123    0.062\
+  semotion_f5 ~~                                                           \
+    SMDS_som_f5          1.112    0.258    4.303    0.000    1.112    0.307\
+  sconduct_f5 ~~                                                           \
+    SMDS_som_f5          0.486    0.145    3.356    0.001    0.486    0.235\
+  shyper_f5 ~~                                                             \
+    SMDS_som_f5          0.530    0.231    2.294    0.022    0.530    0.158\
+  sprosoc_f5 ~~                                                            \
+    SMDS_som_f5          0.017    0.140    0.120    0.905    0.017    0.008\
+  semotion_f5 ~~                                                           \
+    IGDS_som_f5          0.181    0.258    0.701    0.483    0.181    0.048\
+  sconduct_f5 ~~                                                           \
+    IGDS_som_f5          0.168    0.148    1.134    0.257    0.168    0.078\
+  shyper_f5 ~~                                                             \
+    IGDS_som_f5          0.429    0.240    1.784    0.074    0.429    0.123\
+  sprosoc_f5 ~~                                                            \
+    IGDS_som_f5         -0.422    0.149   -2.834    0.005   -0.422   -0.197\
+  semotion_f5 ~~                                                           \
+    sconduct_f5          1.107    0.281    3.945    0.000    1.107    0.279\
+    shyper_f5            1.713    0.454    3.776    0.000    1.713    0.267\
+    sprosoc_f5           0.045    0.269    0.167    0.868    0.045    0.011\
+  sconduct_f5 ~~                                                           \
+    shyper_f5            1.191    0.263    4.533    0.000    1.191    0.325\
+    sprosoc_f5          -0.238    0.154   -1.548    0.122   -0.238   -0.106\
+  shyper_f5 ~~                                                             \
+    sprosoc_f5          -0.502    0.251   -2.003    0.045   -0.502   -0.138\
+ .SMDS_som_calc_f6 ~~                                                      \
+   .IGDS_sm_clc_f6       0.290    0.098    2.960    0.003    0.290    0.206\
+ .semotion_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.509    0.149    3.420    0.001    0.509    0.240\
+ .sconduct_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.096    0.101    0.952    0.341    0.096    0.065\
+ .shyper_f6 ~~                                                             \
+   .SMDS_sm_clc_f6       0.645    0.163    3.970    0.000    0.645    0.281\
+ .sprosoc_f6 ~~                                                            \
+   .SMDS_sm_clc_f6      -0.155    0.123   -1.255    0.210   -0.155   -0.086\
+ .semotion_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.127    0.135    0.938    0.348    0.127    0.064\
+ .sconduct_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.051    0.094    0.545    0.586    0.051    0.037\
+ .shyper_f6 ~~                                                             \
+   .IGDS_sm_clc_f6       0.216    0.146    1.476    0.140    0.216    0.101\
+ .sprosoc_f6 ~~                                                            \
+   .IGDS_sm_clc_f6      -0.245    0.115   -2.122    0.034   -0.245   -0.146\
+ .semotion_f6 ~~                                                           \
+   .sconduct_f6          0.312    0.143    2.176    0.030    0.312    0.150\
+   .shyper_f6            0.599    0.223    2.681    0.007    0.599    0.186\
+   .sprosoc_f6          -0.062    0.172   -0.359    0.720   -0.062   -0.024\
+ .sconduct_f6 ~~                                                           \
+   .shyper_f6            0.296    0.155    1.916    0.055    0.296    0.132\
+   .sprosoc_f6          -0.285    0.122   -2.340    0.019   -0.285   -0.162\
+ .shyper_f6 ~~                                                             \
+   .sprosoc_f6           0.054    0.186    0.291    0.771    0.054    0.020\
+\
+Intercepts:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       1.216    0.203    5.997    0.000    1.216    0.472\
+   .sconduct_f6       0.755    0.139    5.427    0.000    0.755    0.532\
+   .shyper_f6         1.694    0.231    7.325    0.000    1.694    0.681\
+   .sprosoc_f6        3.820    0.320   11.938    0.000    3.820    2.277\
+   .SMDS_sm_clc_f6    0.624    0.463    1.349    0.177    0.624    0.473\
+   .IGDS_sm_clc_f6    0.226    0.454    0.499    0.618    0.226    0.175\
+    semotion_f5       3.419    0.180   19.014    0.000    3.419    1.297\
+    sconduct_f5       1.833    0.103   17.873    0.000    1.833    1.219\
+    shyper_f5         4.698    0.166   28.260    0.000    4.698    1.927\
+    sprosoc_f5        7.493    0.102   73.552    0.000    7.493    5.016\
+    SMDS_som_f5       1.400    0.094   14.946    0.000    1.400    1.019\
+    IGDS_som_f5       1.112    0.098   11.351    0.000    1.112    0.774\
+\
+Variances:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       2.979    0.287   10.368    0.000    2.979    0.449\
+   .sconduct_f6       1.453    0.140   10.368    0.000    1.453    0.719\
+   .shyper_f6         3.479    0.336   10.368    0.000    3.479    0.563\
+   .sprosoc_f6        2.142    0.207   10.368    0.000    2.142    0.761\
+   .SMDS_sm_clc_f6    1.513    0.146   10.368    0.000    1.513    0.867\
+   .IGDS_sm_clc_f6    1.310    0.126   10.368    0.000    1.310    0.781\
+    semotion_f5       6.950    0.670   10.368    0.000    6.950    1.000\
+    sconduct_f5       2.260    0.218   10.368    0.000    2.260    1.000\
+    shyper_f5         5.941    0.573   10.368    0.000    5.941    1.000\
+    sprosoc_f5        2.231    0.215   10.368    0.000    2.231    1.000\
+    SMDS_som_f5       1.887    0.182   10.368    0.000    1.887    1.000\
+    IGDS_som_f5       2.062    0.199   10.368    0.000    2.062    1.000\
+\
+\
+Group 2 [high]:\
+\
+Regressions:\
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  semotion_f6 ~                                                           \
+    smtn_f5   (b1)      0.733    0.032   22.720    0.000    0.733    0.624\
+  sconduct_f6 ~                                                           \
+    scndc_5   (b2)      0.490    0.034   14.626    0.000    0.490    0.479\
+  shyper_f6 ~                                                             \
+    shypr_5   (b3)      0.672    0.028   23.685    0.000    0.672    0.689\
+  sprosoc_f6 ~                                                            \
+    sprsc_5   (b4)      0.523    0.036   14.471    0.000    0.523    0.508\
+  SMDS_som_calc_f6 ~                                                      \
+    SMDS__5   (b5)      0.268    0.035    7.727    0.000    0.268    0.305\
+  IGDS_som_calc_f6 ~                                                      \
+    IGDS__5   (b6)      0.334    0.027   12.519    0.000    0.334    0.464\
+  semotion_f6 ~                                                           \
+    SMDS__5  (ch1)      0.037    0.069    0.539    0.590    0.037    0.021\
+    IGDS__5  (ch2)     -0.031    0.066   -0.476    0.634   -0.031   -0.017\
+  sconduct_f6 ~                                                           \
+    SMDS__5  (ch3)      0.045    0.036    1.248    0.212    0.045    0.053\
+    IGDS__5  (ch4)      0.055    0.036    1.540    0.124    0.055    0.065\
+  shyper_f6 ~                                                             \
+    SMDS__5  (ch5)      0.013    0.062    0.213    0.832    0.013    0.008\
+    IGDS__5  (ch6)      0.007    0.060    0.125    0.901    0.007    0.004\
+  sprosoc_f6 ~                                                            \
+    SMDS__5  (ch7)     -0.051    0.044   -1.166    0.244   -0.051   -0.049\
+    IGDS__5  (ch8)     -0.051    0.044   -1.149    0.250   -0.051   -0.048\
+  SMDS_som_calc_f6 ~                                                      \
+    smtn_f5  (ch9)      0.106    0.027    3.878    0.000    0.106    0.183\
+    scndc_5 (ch10)     -0.051    0.050   -1.018    0.309   -0.051   -0.048\
+    shypr_5 (ch11)      0.008    0.024    0.327    0.744    0.008    0.016\
+    sprsc_5 (ch12)     -0.044    0.038   -1.162    0.245   -0.044   -0.051\
+  IGDS_som_calc_f6 ~                                                      \
+    smtn_f5 (ch13)      0.036    0.021    1.703    0.089    0.036    0.076\
+    scndc_5 (ch14)     -0.016    0.040   -0.408    0.683   -0.016   -0.019\
+    shypr_5 (ch15)      0.013    0.020    0.658    0.511    0.013    0.031\
+    sprsc_5 (ch16)     -0.000    0.030   -0.016    0.987   -0.000   -0.001\
+\
+Covariances:\
+                      Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+  SMDS_som_f5 ~~                                                           \
+    IGDS_som_f5          0.363    0.096    3.780    0.000    0.363    0.185\
+  semotion_f5 ~~                                                           \
+    SMDS_som_f5          1.076    0.153    7.032    0.000    1.076    0.360\
+  sconduct_f5 ~~                                                           \
+    SMDS_som_f5          0.207    0.079    2.641    0.008    0.207    0.128\
+  shyper_f5 ~~                                                             \
+    SMDS_som_f5          0.980    0.172    5.710    0.000    0.980    0.286\
+  sprosoc_f5 ~~                                                            \
+    SMDS_som_f5         -0.292    0.098   -2.992    0.003   -0.292   -0.146\
+  semotion_f5 ~~                                                           \
+    IGDS_som_f5         -0.120    0.144   -0.833    0.405   -0.120   -0.040\
+  sconduct_f5 ~~                                                           \
+    IGDS_som_f5          0.189    0.078    2.409    0.016    0.189    0.117\
+  shyper_f5 ~~                                                             \
+    IGDS_som_f5          0.337    0.166    2.036    0.042    0.337    0.099\
+  sprosoc_f5 ~~                                                            \
+    IGDS_som_f5         -0.319    0.098   -3.259    0.001   -0.319   -0.159\
+  semotion_f5 ~~                                                           \
+    sconduct_f5          0.383    0.120    3.184    0.001    0.383    0.155\
+    shyper_f5            1.794    0.266    6.748    0.000    1.794    0.344\
+    sprosoc_f5           0.098    0.147    0.663    0.508    0.098    0.032\
+  sconduct_f5 ~~                                                           \
+    shyper_f5            1.099    0.146    7.526    0.000    1.099    0.389\
+    sprosoc_f5          -0.404    0.082   -4.916    0.000   -0.404   -0.244\
+  shyper_f5 ~~                                                             \
+    sprosoc_f5          -0.580    0.171   -3.387    0.001   -0.580   -0.166\
+ .SMDS_som_calc_f6 ~~                                                      \
+   .IGDS_sm_clc_f6       0.202    0.049    4.131    0.000    0.202    0.203\
+ .semotion_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.578    0.109    5.326    0.000    0.578    0.266\
+ .sconduct_f6 ~~                                                           \
+   .SMDS_sm_clc_f6       0.188    0.056    3.358    0.001    0.188    0.164\
+ .shyper_f6 ~~                                                             \
+   .SMDS_sm_clc_f6       0.205    0.093    2.196    0.028    0.205    0.106\
+ .sprosoc_f6 ~~                                                            \
+   .SMDS_sm_clc_f6      -0.034    0.068   -0.495    0.620   -0.034   -0.024\
+ .semotion_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.380    0.085    4.455    0.000    0.380    0.220\
+ .sconduct_f6 ~~                                                           \
+   .IGDS_sm_clc_f6       0.046    0.044    1.040    0.299    0.046    0.050\
+ .shyper_f6 ~~                                                             \
+   .IGDS_sm_clc_f6       0.151    0.074    2.034    0.042    0.151    0.099\
+ .sprosoc_f6 ~~                                                            \
+   .IGDS_sm_clc_f6      -0.091    0.054   -1.690    0.091   -0.091   -0.082\
+ .semotion_f6 ~~                                                           \
+   .sconduct_f6          0.284    0.097    2.934    0.003    0.284    0.143\
+   .shyper_f6            0.883    0.167    5.295    0.000    0.883    0.264\
+   .sprosoc_f6          -0.120    0.117   -1.026    0.305   -0.120   -0.050\
+ .sconduct_f6 ~~                                                           \
+   .shyper_f6            0.323    0.086    3.740    0.000    0.323    0.183\
+   .sprosoc_f6          -0.050    0.062   -0.804    0.421   -0.050   -0.039\
+ .shyper_f6 ~~                                                             \
+   .sprosoc_f6          -0.120    0.104   -1.157    0.247   -0.120   -0.056\
+\
+Intercepts:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       1.475    0.142   10.419    0.000    1.475    0.589\
+   .sconduct_f6       0.629    0.077    8.219    0.000    0.629    0.532\
+   .shyper_f6         1.630    0.147   11.064    0.000    1.630    0.684\
+   .sprosoc_f6        4.047    0.319   12.681    0.000    4.047    2.743\
+   .SMDS_sm_clc_f6    0.924    0.347    2.666    0.008    0.924    0.751\
+   .IGDS_sm_clc_f6    0.219    0.281    0.779    0.436    0.219    0.218\
+    semotion_f5       2.500    0.103   24.310    0.000    2.500    1.172\
+    sconduct_f5       1.272    0.056   22.848    0.000    1.272    1.102\
+    shyper_f5         3.951    0.118   33.514    0.000    3.951    1.616\
+    sprosoc_f5        8.270    0.069  119.689    0.000    8.270    5.772\
+    SMDS_som_f5       1.109    0.067   16.440    0.000    1.109    0.793\
+    IGDS_som_f5       0.853    0.067   12.664    0.000    0.853    0.611\
+\
+Variances:\
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all\
+   .semotion_f6       3.771    0.257   14.663    0.000    3.771    0.600\
+   .sconduct_f6       1.047    0.071   14.663    0.000    1.047    0.749\
+   .shyper_f6         2.961    0.202   14.663    0.000    2.961    0.521\
+   .sprosoc_f6        1.569    0.107   14.663    0.000    1.569    0.721\
+   .SMDS_sm_clc_f6    1.255    0.086   14.663    0.000    1.255    0.827\
+   .IGDS_sm_clc_f6    0.790    0.054   14.663    0.000    0.790    0.779\
+    semotion_f5       4.548    0.310   14.663    0.000    4.548    1.000\
+    sconduct_f5       1.333    0.091   14.663    0.000    1.333    1.000\
+    shyper_f5         5.977    0.408   14.663    0.000    5.977    1.000\
+    sprosoc_f5        2.053    0.140   14.663    0.000    2.053    1.000\
+    SMDS_som_f5       1.958    0.134   14.663    0.000    1.958    1.000\
+    IGDS_som_f5       1.953    0.133   14.663    0.000    1.953    1.000\
+> fit_indices_mspss\
+                 npar                  fmin                 chisq \
+              146.000                 0.041                53.077 \
+                   df                pvalue        baseline.chisq \
+               34.000                 0.020              2108.576 \
+          baseline.df       baseline.pvalue                   cfi \
+              132.000                 0.000                 0.990 \
+                  tli                  nnfi                   rfi \
+                0.963                 0.963                 0.902 \
+                  nfi                  pnfi                   ifi \
+                0.975                 0.251                 0.991 \
+                  rni                  logl     unrestricted.logl \
+                0.990            -13709.386            -13682.848 \
+                  aic                   bic                ntotal \
+            27710.773             28363.283               645.000 \
+                 bic2                 rmsea        rmsea.ci.lower \
+            27899.739                 0.042                 0.017 \
+       rmsea.ci.upper        rmsea.ci.level          rmsea.pvalue \
+                0.063                 0.900                 0.721 \
+       rmsea.close.h0 rmsea.notclose.pvalue     rmsea.notclose.h0 \
+                0.050                 0.001                 0.080 \
+                  rmr            rmr_nomean                  srmr \
+                0.113                 0.121                 0.030 \
+         srmr_bentler   srmr_bentler_nomean                  crmr \
+                0.030                 0.032                 0.029 \
+          crmr_nomean            srmr_mplus     srmr_mplus_nomean \
+                0.031                 0.030                 0.031 \
+                cn_05                 cn_01                   gfi \
+              591.620               682.257                 0.999 \
+                 agfi                  pgfi                   mfi \
+                0.993                 0.189                 0.985 \
+                 ecvi \
+                0.535 \
+\
+}
